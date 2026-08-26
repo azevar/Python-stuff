@@ -16,5 +16,4 @@ Lisätty tuntiesimerkit ja malliratkaisuja tehtäviin.
 
 #moduuli 4
 
-Lisätty if-lause-esimerkkejä
-
+Lisätty if-lause-esimerkkejä ja tehtävät tehty
