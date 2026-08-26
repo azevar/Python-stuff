@@ -45,6 +45,24 @@ print(f"{kilogrammat} kilogrammaa ja {grammat:.2f} grammaa.")
 
 '''
 
+'''
+
+#opettajan tapa
+
+leiviskat_lkm = float(input("Anna leivisköiden määrä: "))
+naulat_lkm = float(input("Anna naulojen määrä: "))
+luodit_lkm = float(input("Anna luotien määrä: "))
+
+naulat_lkm = leiviskat_lkm * 20 + naulat_lkm
+luodit_lkm = naulat_lkm * 32 + luodit_lkm
+
+massa_g = luodit_lkm * 13.3
+massa_kg = massa_g / 1000
+
+print(f"Massa nykymittojen mukaan: {int(massa_kg % 1000)} kilogrammaa ja {massa_g % 1000:.2f} grammaa.")
+
+'''
+
 #tehtävä 6
 
 '''

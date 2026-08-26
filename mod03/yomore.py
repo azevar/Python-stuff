@@ -21,8 +21,9 @@
 # print("the numbers " + str(luku) + " and " + str(luku2) + " equal to " + summa + ".")
 
 import math
+import random
 
-
+'''
 new_user = input("Gimme your name: ")
 
 ikä = 21
@@ -58,15 +59,18 @@ print("-----------------")
 print(f"{'Pii':12s}: {math.pi:<10.2f}")
 
 
-tuloste = '''
+tuloste =
     yhteenlasku (+), vähennyslasku (-)
     kertolasku (*), jakolasku (/)
     jakojäännösoperaatio (%)
     pelkän kokonaisosan palauttava jakolasku (//) 
     potenssiinkorotus (**)
-'''
+
 print(tuloste)
 
+'''
+
+'''
 #laskukone
 
 print("Gimme two numbers and i will calculate them for you twin")
@@ -89,3 +93,45 @@ print(f'Jakolasku: {jakolasku}')
 print(f'Potenssiinkorotus: {potenssiinkorotus}')
 print(f'Kokonaisosa: {kokonaisosa}')
 print(f'Jakojäännös: {jakojaannos}')
+
+'''
+
+'''
+onko_totta = False
+
+if onko_totta:
+    print("On se totta.")
+    
+'''
+
+'''
+#kolikonheittosimulaattori
+
+print("Heitetään kolikkoa...")
+
+random_number = random.randint(0, 1)
+if random_number == 0:
+    result = "kruuna"
+    print("kruuna tuli")
+else:
+    result = "klaava"
+    print("klaava tuli")
+
+# print(f'Heitit kolikkoa ja sait {result}n.')
+
+'''
+
+'''
+#kolikonheittosimulaattori 2.0
+random_number = random.random()
+print(random_number)
+
+if random_number < 0.01:
+    result = "kolikko jäi pystyyn"
+    print("kolikko jäi pystyyn")
+elif random_number < 0.505:
+    print("kruuna tuli")
+else:
+    print("klaava tuli")
+
+'''
