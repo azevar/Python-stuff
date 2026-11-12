@@ -66,6 +66,7 @@ while eka <= 5:
     eka = eka + 1
 '''
 
+'''
 kierros = 0
 heitto = 0
 
@@ -83,3 +84,4 @@ pelikerta += 1
 print("pelikertoja meillä oli", pelikerta)
 print(f"Tarvittiin {heitot:d} heittoa.")
 print(f"jokaisella kierroksella oli keskimäärin {heitot/pelikerta} heittoa")
+'''

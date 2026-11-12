@@ -1,4 +1,4 @@
-from peliluokat import Esine, Huone, Pelaaja
+from ohjelmisto1.peliprojekti.peliluokat import Esine, Huone, Pelaaja
 
 def main():
     #Luodaan pelaaja ja muutama esinettä ja huonetta
