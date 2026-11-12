@@ -45,3 +45,7 @@ Lisätty tuntiesimerkit ja tehtävät osittain tehty
 moduuli 11
 
 Lisätty tuntiesimerkit ja tehtävät tehty
+
+moduuli 12
+
+lisätty eläin esimerkit
